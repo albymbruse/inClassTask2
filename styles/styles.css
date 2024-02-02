@@ -1,0 +1,16 @@
+/*
+Alby Mathews Bruse
+8980406
+*/
+body {
+    font: 12px Arial;
+    background-color: hsla(54, 100%, 55%,1);
+    height: 85vh;
+    width: 85vw;
+}
+
+#listheading {
+    color: #f00;
+    font-size: 0.8rem;
+
+}
