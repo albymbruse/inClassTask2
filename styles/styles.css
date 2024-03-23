@@ -11,6 +11,11 @@ body {
     margin: auto;
 }
 
+h1{
+    color: blue; 
+    font-size: 50px;
+}
+
 #listheading {
     color: #f00;
     font-size: 0.8rem;
@@ -25,6 +30,7 @@ aside{
     float: right;
     width: 30%;
     background-color: hsl(180, 100%, 50%);
+    padding-bottom: 715px;
 }
 
 .structural {
@@ -57,4 +63,69 @@ a:hover {
 
 footer p {
     font-size: smaller;
+}
+
+aside ul{
+    list-style:square ;
+}
+
+aside li{
+    line-height: 1.5rem;
+    color: rgba(165, 42, 42, 0.871);   
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+nav a{
+    border: indigo 2px solid;
+    padding: 2px;
+    color: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav a:hover{
+    border: cornsilk 2px solid;
+    color: cornsilk;
+    background-color: indigo;
+}
+
+form{
+    border: 5px dashed rebeccapurple;
+    padding: 5px;
+}
+
+input[type=text], 
+input[type=email],
+input[type=submit],
+select, option{
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+
+input[type=radio],
+input[type=checkbox]{
+    height: 2em;
+    width: 2em;
+}
+
+select, option, label, legend,
+input[type=submit]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+textarea{
+    width: 50%;
+    display: block;
+}
+
+fieldset{
+    border: none;
 }
