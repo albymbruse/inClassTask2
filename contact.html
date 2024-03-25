@@ -19,75 +19,82 @@ amathewsbruse0406@conestogac.on.ca
         <ul>
             <li>
                 <a href="index.html">Home</a>
+            </li>
+            <li>
                 <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
             </li>
         </ul>
     </nav>
-    <main class="structural">
-        <h2>Contact</h2>
-        <form action="">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="username" required>
-            </div>
-            <br>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="useremail" required>
-            </div>
-            <br>
-            <fieldset>
-                <legend>What section of PROG1245 are you in?</legend>
+    <section>
+        <main class="structural">
+            <h2>Contact</h2>
+            <form action="">
                 <div>
-                    <input type="radio" name="sec" id="4" value="4">
-                    <label for="4">Section 4</label>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="username" required>
                 </div>
                 <br>
                 <div>
-                    <input type="radio" name="sec" id="5" value="5">
-                    <label for="5">Section 5</label>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="useremail" required>
+                </div>
+                <br>
+                <fieldset>
+                    <legend>What section of PROG1245 are you in?</legend>
+                    <div>
+                        <input type="radio" name="sec" id="4" value="4">
+                        <label for="4">Section 4</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio" name="sec" id="5" value="5">
+                        <label for="5">Section 5</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio" name="sec" id="8" value="8">
+                        <label for="8">Section 8</label>
+                    </div>
+                </fieldset>
+                <br>
+                <div>
+                    <label for="help">What do you need help with?</label>
+                    <select name="select" id="help">
+                        <option value="default">Select Option</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Both">Both(HTML & CSS)</option>
+                    </select>
                 </div>
                 <br>
                 <div>
-                    <input type="radio" name="sec" id="8" value="8">
-                    <label for="8">Section 8</label>
+                    <label for="comment">Comments</label>
+                    <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
                 </div>
-            </fieldset>
-            <br>
-            <div>
-                <label for="help">What do you need help with?</label>
-                <select name="select" id="help">
-                    <option value="default">Select Option</option>
-                    <option value="HTML">HTML</option>
-                    <option value="CSS">CSS</option>
-                    <option value="Both">Both(HTML & CSS)</option>
-                </select>
-            </div>
-            <br>
-            <div>
-                <label for="comment">Comments</label>
-                <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
-            </div>
-            <br>
-            <div>
-                <label for="human">I am a human</label>
-                <input type="checkbox" id="human" name="human" value="true">
-            </div>
-            <br>
-            <div>
-                <input type="submit" id="submit" value="Submit">
-            </div>
+                <br>
+                <div>
+                    <label for="human">I am a human</label>
+                    <input type="checkbox" id="human" name="human" value="true">
+                </div>
+                <br>
+                <div>
+                    <input type="submit" id="submit" value="Submit">
+                </div>
 
 
-        </form>
-    </main>
-    <aside class="structural">
-        <h2 id="listheading">Make an appointment</h2>
-        <ul>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="https://maps.google.com/">Visit Us</a></li>
-        </ul>
-    </aside>
+            </form>
+        </main>
+        <aside class="structural">
+            <h2 id="listheading">Make an appointment</h2>
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="https://maps.google.com/">Visit Us</a></li>
+            </ul>
+        </aside>
+    </section>
     <footer class="structural">
         <p>&copy Alby Mathews Bruse 2024</p>
     </footer>
